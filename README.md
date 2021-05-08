@@ -16,7 +16,7 @@ pip install colored-print
 ## Usage
 
 ```python
-from colored_print.colored-print import ColoredPrint
+from colored_print import ColoredPrint
 
 
 log = ColoredPrint()
@@ -28,5 +28,7 @@ log.err("Hello", 123, "Bye").store()
 log.pink("Hello", 123, "Bye")
 
 ```
+
+## Output
 
 ![Output](https://i.stack.imgur.com/HMVP6.png)

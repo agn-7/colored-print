@@ -32,7 +32,7 @@ Usage
 
 .. code-block:: python
 
-   from colored_print.colored-print import ColoredPrint
+   from colored_print import ColoredPrint
 
 
    log = ColoredPrint()
@@ -42,6 +42,9 @@ Usage
    log.warn("Hello", 123, "Bye")
    log.err("Hello", 123, "Bye").store()
    log.pink("Hello", 123, "Bye")
+
+Output
+------
 
 
 .. image:: https://i.stack.imgur.com/HMVP6.png
