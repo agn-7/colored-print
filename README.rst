@@ -25,7 +25,7 @@ Setup
 
 .. code-block:: bash
 
-   pip install colored-print
+   pip install python-colored-print
 
 Usage
 -----

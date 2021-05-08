@@ -10,7 +10,7 @@ A lightweight python library in order to print in different colors and save them
 ## Setup
 
 ```bash
-pip install colored-print 
+pip install python-colored-print 
 ```
 
 ## Usage
