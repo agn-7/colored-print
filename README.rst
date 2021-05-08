@@ -1,0 +1,44 @@
+
+Colored Print
+-------------
+
+
+.. image:: https://img.shields.io/pypi/v/mix-mavis
+   :target: https://pypi.org/project/colored-print/
+   :alt: PyPI
+
+
+.. image:: https://img.shields.io/pypi/pyversions/wfuzz
+   :target: https://pypi.org/project/colored-print/
+   :alt: Python Versions
+
+
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+   :target: https://raw.githubusercontent.com/etingof/pysnmp/master/LICENSE.rst
+   :alt: GitHub license
+
+
+A lightweight python library in order to print in different colors and save them into a file optionally.
+
+Setup
+-----
+
+.. code-block:: bash
+
+   pip install colored-print
+
+Usage
+-----
+
+.. code-block:: python
+
+   from colored_print.colored-print import ColoredPrint
+
+
+   log = ColoredPrint()
+
+   log.success("Hello", 123, "Bye").store()
+   log.info("Hello", 123, "Bye")
+   log.warn("Hello", 123, "Bye")
+   log.err("Hello", 123, "Bye").store()
+   log.pink("Hello", 123, "Bye")

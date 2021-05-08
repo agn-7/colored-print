@@ -1,0 +1,7 @@
+ /.idea
+*.pyc
+__pycache__/
+/build
+/dist
+colored_print.egg-info/
+*.log
