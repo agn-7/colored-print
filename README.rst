@@ -42,3 +42,6 @@ Usage
    log.warn("Hello", 123, "Bye")
    log.err("Hello", 123, "Bye").store()
    log.pink("Hello", 123, "Bye")
+
+
+![Output](https://i.stack.imgur.com/HMVP6.png)
