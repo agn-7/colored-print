@@ -3,5 +3,5 @@
 __pycache__/
 /build
 /dist
-python_colored_print.egg-info/
+*.egg-info/
 *.log
