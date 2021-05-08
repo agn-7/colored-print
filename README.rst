@@ -44,3 +44,7 @@ Usage
    log.pink("Hello", 123, "Bye")
 
 
+.. image:: https://i.stack.imgur.com/HMVP6.png
+   :target: https://i.stack.imgur.com/HMVP6.png
+   :alt: Output
+
