@@ -14,7 +14,7 @@ Colored Print
 
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
-   :target: https://raw.githubusercontent.com/etingof/pysnmp/master/LICENSE.rst
+   :target: https://raw.githubusercontent.com/agn-7/colored-print/master/LICENSE
    :alt: GitHub license
 
 

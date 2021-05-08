@@ -29,7 +29,7 @@ setup(
         'python3',
         'python',
     ],
-    download_url='https://github.com/agn-7/simple-snmp-collector/archive/1.0.0.zip',
+    download_url='https://github.com/agn-7/colored-print/archive/refs/tags/v1.0.0-rc1.zip',
     install_requires=[
     ],
     classifiers=[
