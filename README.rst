@@ -4,12 +4,12 @@ Colored Print
 
 
 .. image:: https://img.shields.io/pypi/v/mix-mavis
-   :target: https://pypi.org/project/colored-print/
+   :target: https://pypi.org/project/python-colored-print/
    :alt: PyPI
 
 
 .. image:: https://img.shields.io/pypi/pyversions/wfuzz
-   :target: https://pypi.org/project/colored-print/
+   :target: https://pypi.org/project/python-colored-print/
    :alt: Python Versions
 
 
