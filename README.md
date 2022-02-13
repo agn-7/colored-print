@@ -1,7 +1,7 @@
 Colored Print
 -----------------------
 [![PyPI](https://img.shields.io/pypi/v/python-colored-print)](https://pypi.org/project/python-colored-print/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/wfuzz)](https://pypi.org/project/python-colored-print/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/python-colored-print)](https://pypi.org/project/python-colored-print/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/agn-7/colored-print/master/LICENSE)
 
 A lightweight python library in order to print in different colors and save them into a file optionally.
