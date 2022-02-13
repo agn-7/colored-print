@@ -1,6 +1,6 @@
 Colored Print
 -----------------------
-[![PyPI](https://img.shields.io/pypi/v/mix-mavis)](https://pypi.org/project/python-colored-print/)
+[![PyPI](https://img.shields.io/pypi/v/python-colored-print)](https://pypi.org/project/python-colored-print/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/wfuzz)](https://pypi.org/project/python-colored-print/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/agn-7/colored-print/master/LICENSE)
 
