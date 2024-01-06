@@ -13,6 +13,11 @@ class ColoredPrint:
         self.FAIL = '\033[91m'
         self.ENDC = '\033[0m'
 
+    def __call__(self, *args, **kwargs):
+        self.msg = ' '.join(map(str, args))
+        print(self.msg, **kwargs)
+        return self
+
     def disable(self):
         self.PINK = ''
         self.OKBLUE = ''
@@ -51,3 +56,6 @@ class ColoredPrint:
         self.msg = ' '.join(map(str, args))
         print(self.PINK + self.msg + self.ENDC, **kwargs)
         return self
+
+
+log = ColoredPrint()
