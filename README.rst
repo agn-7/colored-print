@@ -3,12 +3,12 @@ Colored Print
 -------------
 
 
-.. image:: https://img.shields.io/pypi/v/mix-mavis
+.. image:: https://img.shields.io/pypi/v/python-colored-print
    :target: https://pypi.org/project/python-colored-print/
    :alt: PyPI
 
 
-.. image:: https://img.shields.io/pypi/pyversions/wfuzz
+.. image:: https://img.shields.io/pypi/pyversions/python-colored-print
    :target: https://pypi.org/project/python-colored-print/
    :alt: Python Versions
 
@@ -32,16 +32,14 @@ Usage
 
 .. code-block:: python
 
-   from colored_print import ColoredPrint
-
-
-   log = ColoredPrint()
+   from colored_print import log
 
    log.success("Hello", 123, "Bye").store()
    log.info("Hello", 123, "Bye")
    log.warn("Hello", 123, "Bye")
    log.err("Hello", 123, "Bye").store()
    log.pink("Hello", 123, "Bye")
+   log("Hello", 123, "Bye")  # default color is white
 
 Output
 ------

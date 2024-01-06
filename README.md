@@ -10,23 +10,20 @@ A lightweight python library in order to print in different colors and save them
 ## Setup
 
 ```bash
-pip install python-colored-print 
+pip install python-colored-print
 ```
 
 ## Usage
 
 ```python
-from colored_print import ColoredPrint
-
-
-log = ColoredPrint()
+from colored_print import log
 
 log.success("Hello", 123, "Bye").store()
 log.info("Hello", 123, "Bye")
 log.warn("Hello", 123, "Bye")
 log.err("Hello", 123, "Bye").store()
 log.pink("Hello", 123, "Bye")
-
+log("Hello", 123, "Bye")  # default color is white
 ```
 
 ## Output
