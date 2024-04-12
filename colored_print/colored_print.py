@@ -26,9 +26,11 @@ class ColoredPrint:
         self.FAIL = ''
         self.ENDC = ''
 
-    def store(self):
+    def store(self, *args, path: str = 'logfile.log'):
+        if args:
+            self.msg = ' '.join(map(str, args))
         date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with open('logfile.log', mode='a') as file_:
+        with open(path, mode='a') as file_:
             file_.write(f"{self.msg} -- {date}")
             file_.write("\n")
 
