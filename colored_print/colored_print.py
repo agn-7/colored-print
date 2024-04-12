@@ -49,15 +49,36 @@ class ColoredPrint:
         print(self.WARNING + self.msg + self.ENDC, **kwargs)
         return self
 
+    def warning(self, *args, **kwargs):
+        return self.warn(*args, **kwargs)
+
     def err(self, *args, **kwargs):
         self.msg = ' '.join(map(str, args))
         print(self.FAIL + self.msg + self.ENDC, **kwargs)
         return self
 
+    def error(self, *args, **kwargs):
+        return self.err(*args, **kwargs)
+
+    def critical(self, *args, **kwargs):
+        return self.err(*args, **kwargs)
+
     def pink(self, *args, **kwargs):
         self.msg = ' '.join(map(str, args))
         print(self.PINK + self.msg + self.ENDC, **kwargs)
         return self
+
+    def green(self, *args, **kwargs):
+        return self.success(*args, **kwargs)
+
+    def red(self, *args, **kwargs):
+        return self.err(*args, **kwargs)
+
+    def blue(self, *args, **kwargs):
+        return self.info(*args, **kwargs)
+
+    def yellow(self, *args, **kwargs):
+        return self.warn(*args, **kwargs)
 
 
 log = ColoredPrint()
