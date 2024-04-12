@@ -21,9 +21,10 @@ from colored_print import log
 log.success("Hello", 123, "Bye").store()
 log.info("Hello", 123, "Bye")
 log.warn("Hello", 123, "Bye")
-log.err("Hello", 123, "Bye").store()
+log.err("Hello", 123, "Bye").store(path="log.txt")
 log.pink("Hello", 123, "Bye")
 log("Hello", 123, "Bye")  # default color is white
+log.store("Hello", 123, "Bye")  # only store without printing
 ```
 
 ## Output
